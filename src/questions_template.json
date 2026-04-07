@@ -59,14 +59,14 @@
       "title": "Image Sample",
       "text": "Betrachten Sie das Bild und beantworten Sie die Frage.",
       "points": 2,
-      "imageUrl": "assests/example-image.jpg",
+      "imageUrl": "assests/image.png",
       "options": [
         {
-          "text": "A) Aussage 1",
+          "text": "A) Die Zahl 3 markiert die Schnittmenge $\\mathcal{A} \\cap \\mathcal{B}$.",
           "isCorrect": false
         },
         {
-          "text": "B) Aussage 2",
+          "text": "B) Die Zahlen 1, 2, 4 und 5 gehören zur Vereinigungsmenge $\\mathcal{A} \\cup \\mathcal{B}$, die Zahl 3 jedoch nicht.",
           "isCorrect": true
         }
       ]

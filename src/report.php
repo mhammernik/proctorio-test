@@ -170,6 +170,9 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prüfungsbericht</title>
     <link rel="stylesheet" href="report.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -516,6 +519,22 @@ try {
                 changeQuestion(-1); // Scroll up/left
             }
             }, { passive: false });
+
+        function renderMath() {
+            if (typeof renderMathInElement !== 'function') {
+                return;
+            }
+
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '$', right: '$', display: false }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener('load', renderMath);
     </script>
 </body>
 </html>
