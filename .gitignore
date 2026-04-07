@@ -9,6 +9,9 @@
 # Backup files
 *.bak
 
+# Archive files
+*.zip
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
