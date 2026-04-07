@@ -6,6 +6,9 @@
 # Runtime/session leftovers
 *.log
 
+# Backup files
+*.bak
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
