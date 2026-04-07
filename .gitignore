@@ -1,0 +1,11 @@
+# SQLite database artifacts
+*.db
+*.db-shm
+*.db-wal
+
+# Runtime/session leftovers
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
