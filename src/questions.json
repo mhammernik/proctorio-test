@@ -1,0 +1,205 @@
+{
+    "exam": "Example",
+    "questions": [
+        {
+            "type": "allocation",
+            "title": "Software Development Terms",
+            "text": "Match each keyword with its correct definition",
+            "points": 5,
+            "keywords": {
+                "Agile": 1,
+                "Waterfall": 2,
+                "Scrum": 3
+            },
+            "choices": [
+                "Iterative approach focusing on customer collaboration",
+                "Sequential development process with distinct phases",
+                "Framework for agile development with sprints",
+                "Direct implementation without planning",
+                "Risk-based development model"
+            ],
+            "correct": {
+                "1": "Iterative approach focusing on customer collaboration",
+                "2": "Sequential development process with distinct phases",
+                "3": "Framework for agile development with sprints"
+            }
+        },
+        {
+            "type": "order",
+            "title": "OSI Model",
+            "text": "Order the OSI Model layers from top to bottom",
+            "points": 7,
+            "options": {
+                "Physical": 7,
+                "Network": 5,
+                "Presentation": 2,
+                "Application": 1,
+                "Transport": 4,
+                "Data Link": 6,
+                "Session": 3
+            }
+        },
+        {
+            "type": "open",
+            "title": "Vorgehensmodelle",
+            "text": "Nennen Sie die fünf prinzipiellen Vorgehensmodelle (z. B. Wasserfallmodell, V-Modell, etc.) und beschreiben Sie jeweils zwei Vor- und Nachteile.",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Vorgehensmodelle",
+            "text": "Erklären Sie die typischen Schritte der Software-Entwicklung. Welche Bedeutung haben Analyse, Spezifikation und Entwurf für den weiteren Entwicklungsprozess?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Vorgehensmodelle",
+            "text": "Warum wird das Code-and-Fix-Modell als problematisch betrachtet? Erläutern Sie, welche Risiken und Nachteile mit dieser Vorgehensweise verbunden sind.",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Vorgehensmodelle",
+            "text": "Zeichnen Sie die Struktur des Wasserfallmodells und erklären Sie, warum es oft als Einbahnstraßenmodell kritisiert wird. Wie unterscheiden sich „erwünschte Übergänge“ und „unvermeidliche Rücksprünge“?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Erweiterte klassische Modelle",
+            "text": "Nennen Sie beispielhaft 3 Programmiersprachen, allerdings NICHT die Sprache Python, die ebenso wie Python als eine dynamische Sprache angesehen werden können.",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Erweiterte klassische Modelle",
+            "text": "Beschreiben Sie das V-Modell und erklären Sie, wie es die Verifikation und Validierung in den Entwicklungsprozess integriert. Iterative und inkrementelle Ansätze",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Erweiterte klassische Modelle",
+            "text": "Was bedeutet iterative Software-Entwicklung? Erklären Sie die typischen Aktivitäten in einer Iteration und die Vorteile dieses Ansatzes.",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Erweiterte klassische Modelle",
+            "text": "Welche Rolle spielt das Risikomanagement im Spiralmodell? Beschreiben Sie die Schritte eines Zyklus im Spiralmodell.",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Agile Methoden",
+            "text": "Was sind die vier Werte des agilen Manifests? Wie unterscheiden sich diese von klassischen Ansätzen?",
+            "points": 3.0
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Welches Vorgehensmodell wird hauptsächlich durch Ad-hoc-Codierung ohne Planung und Dokumentation charakterisiert?",
+            "points": 2.0,
+            "options": [
+                "Wasserfallmodell",
+                "V-Modell",
+                "Code-and-Fix",
+                "Spiralmodell"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was ist ein zentraler Nachteil des Wasserfallmodells?",
+            "points": 2.0,
+            "options": [
+                "Die Iteration der Entwicklungsphasen ist gut unterstützt.",
+                "Es gibt keine Möglichkeit, Anforderungen nachträglich zu ändern.",
+                "Es ist schwer zu verstehen und zu dokumentieren.",
+                "Es ermöglicht frühe und regelmäßige Kundenfeedbacks."
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was ist der Hauptzweck des Spiralmodells?",
+            "points": 2.0,
+            "options": [
+                "Risikoanalyse und iterative Entwicklung",
+                "Lineare und dokumentengetriebene Entwicklung",
+                "Schnell eine lauffähige Version erstellen",
+                "Planung der Software ohne Iteration"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Welche Aussage trifft auf das V-Modell zu?",
+            "points": 2.0,
+            "options": [
+                "Es verwendet keine Verifikation und Validierung.",
+                "Es kombiniert lineare und iterative Ansätze.",
+                "Es ist eine Erweiterung des Prototyping-Modells.",
+                "Es berücksichtigt keine Dokumentation."
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was ist ein Ziel des Prototyping?",
+            "points": 2.0,
+            "options": [
+                "Erstellung eines endgültigen Produkts für den Kunden",
+                "Schnelle Auslieferung an den Markt",
+                "Klärung von Anforderungen durch eine rudimentäre Version",
+                "Vermeidung jeglicher Tests im Entwicklungsprozess"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was ist ein Kernmerkmal iterativer Software-Entwicklung?",
+            "points": 2.0,
+            "options": [
+                "Einmalige Ausführung jeder Phase des Entwicklungsprozesses.",
+                "Fortlaufende Verbesserung des Systems durch wiederholte Durchgänge",
+                "Erstellung eines Prototyps ohne Rücksicht auf Qualität",
+                "Fokus auf ein einzelnes Projektziel ohne Flexibilität"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Welche der folgenden Aussagen gehört NICHT zu den Grundsätzen des agilen Manifests?",
+            "points": 2.0,
+            "options": [
+                "Menschen und Zusammenarbeit vor Prozessen und Werkzeugen.",
+                "Funktionierende Software vor umfassender Dokumentation.",
+                "Verträge vor Kundenzusammenarbeit priorisieren",
+                "Reaktion auf Veränderung vor Planeinhaltung"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Welche Phase gehört NICHT zu den Phasen des Rational Unified Process (RUP)?",
+            "points": 2.0,
+            "options": [
+                "Inception (Konzeption)",
+                "Elaboration (Ausarbeitung)",
+                "Deployment (Verteilung)",
+                "Transition (Inbetriebnahme)"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was ist ein zentrales Merkmal des Kanban-Ansatzes?",
+            "points": 2.0,
+            "options": [
+                "Strikte Iterationen ohne Flexibilität",
+                "Visualisierung des Arbeitsflusses und Begrenzung der parallelen Arbeiten",
+                "Zentrale Planung durch den Product Owner",
+                "Erstellung eines lauffähigen Produkts in einer festgelegten Timebox"
+            ]
+        }
+    ]
+}

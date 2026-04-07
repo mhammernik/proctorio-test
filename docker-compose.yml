@@ -1,0 +1,19 @@
+services:
+  php:
+    image: php:8.2-fpm
+    volumes:
+      - ./src:/var/www/html
+      - ./data:/var/www/data  # persistent storage for SQLite database
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini  # mount custom PHP configuration
+    environment:
+      - SQLITE_DATABASE=/var/www/data/answers.db
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf 
+    depends_on:
+      - php

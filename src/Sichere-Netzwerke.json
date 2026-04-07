@@ -1,0 +1,332 @@
+{
+    "exam": "Sichere-Netzwerke",
+    "questions": [
+        {
+            "type": "order",
+            "title": "OSI Model",
+            "text": "Order the OSI Model layers from top to bottom",
+            "points": 7,
+            "options": {
+                "Physical": 7,
+                "Network": 5,
+                "Presentation": 2,
+                "Application": 1,
+                "Transport": 4,
+                "Data Link": 6,
+                "Session": 3
+            }
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Aus wie vielen Bits besteht eine IPv4 Adresse?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Beschreiben Sie die Aufgabe des Headers Last-Modified bei HTTP und Caching",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Was motiviert Angreifer?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Worin unterscheidet sich eine rekursive von einer interaktiven DNS-Abfrage?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Welcher MIMETYP enthält die Dokumententypen Plain, HTML und XML?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Beschreiben Sie detailliert die Unterschiede zwischen einer seriellen, parallelen, persistenten und pipline Verbindung bei http",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Führen Sie den Befehl 'Ping' auf ihrer Konsole aus. Die Zieladresse ist fom.de was beobachten sie?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Was sind die Aufgaben von ARP und RARP?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Nennen Sie die drei Schutzziele nach BSI",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Welche Komponenten werden für die E-Mail-Nutzung benötigt?",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Beschreiben Sie den Angriff HTTP Smuggeling",
+            "points": 3.0
+        },
+        {
+            "type": "open",
+            "title": "Network",
+            "text": "Welcher Computervirus war eine der ersten bekannten Cyberwaffen?",
+            "points": 3.0
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "TLS kann zu jedem Protokoll ergänzt werden",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Auf welchen Schichten arbeiten die einzelnen Netzkoppelelemente?",
+            "points": 2.0,
+            "options": [
+                "Repeater",
+                "Bridges",
+                "Router",
+                "Hubs",
+                "Switches",
+                "Gateway"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Eine vollständige Cyber Sicherheit ist jederzeit möglich, solange es genügend Ressourcen gibt.",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Was sind die Schutzziele nach CIA",
+            "points": 2.0,
+            "options": [
+                "Vertraulichkeit, Integrität, Verfügbarkeit",
+                "Vertraulichkeit, Anonymität, Pseudonymität"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Rechnernetze und verteilte Systeme sind synonyme füreinander.",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Der größte IXP der Welt liegt in?",
+            "points": 2.0,
+            "options": [
+                "China",
+                "Deutschland",
+                "Russland",
+                "USA"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Bei steigender Digitalisierung, steigt auch das Risko und somit die Herausforderungen",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "ICMP:",
+            "points": 2.0,
+            "options": [
+                "ICMP wird für die Kontroll- oder Fehlermeldung über IP an Rechner verwendet",
+                "ICMP ist Teil der Bitübertragungsschicht und meldet Fehler auf der Leitung",
+                "ICMP ist Bestandteil der IP-Implementierung"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Wozu wird Fragmentierung benötigt?",
+            "points": 2.0,
+            "options": [
+                "Um Pakete schneller zu übertragen",
+                "Datagramme flexible an die MTU anzupassen",
+                "Fragmentierung ist Optional in IPv4"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "TLS steht für Transport Layer Security",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Eine IPv6 Adresse besteht aus 128 Bits",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Multiple Choice",
+            "text": "Das Hypertext Transfer Protokoll (HTTP) ist native verschlüsselt.",
+            "points": 2.0,
+            "options": [
+                "True",
+                "False"
+            ]
+        },
+        {
+            "type": "allocation",
+            "title": "DNS",
+            "text": "Ordnen Sie die Typen den Resource Records zu.",
+            "points": 5,
+            "keywords": {
+                "AAA": 1,
+                "MX": 2,
+                "NS": 3,
+                "A": 4,
+                "SOA": 5,
+                "CNAME": 6
+            },
+            "choices": [
+                "Aliasname",
+                "Anfag der Zone",
+                "IPv4 Adresse",
+                "Nameserver",
+                "Mailserver",
+                "IPv6 Adresse"
+            ],
+            "correct": {
+                "1": "IPv6 Adresse",
+                "2": "Mailserver",
+                "3": "Nameserver",
+                "4": "IPv4 Adresse",
+                "5": "Anfag der Zone",
+                "6": "Aliasname"
+            }
+        },
+        {
+            "type": "allocation",
+            "title": "Network Protocols",
+            "text": "Ordnen Sie die Protokolle den entsprechenden Schichten im Referenzmodell zu",
+            "points": 7,
+            "keywords": {
+                "UDP": 1,
+                "ARP": 2,
+                "DNS": 3,
+                "FTP": 4,
+                "ICMP": 5,
+                "HTTP": 6,
+                "TCP": 7
+            },
+            "choices": [
+                "Anwendungsschicht",
+                "Internetschicht",
+                "Transportschicht"
+            ],
+            "correct": {
+                "1": "Transportschicht",
+                "2": "Internetschicht",
+                "3": "Anwendungsschicht",
+                "4": "Anwendungsschicht",
+                "5": "Transportschicht",
+                "6": "Anwendungsschicht",
+                "7": "Transportschicht"
+            }
+        },
+        {
+            "type": "allocation",
+            "title": "HTTP Methods",
+            "text": "Ordnen Sie die Anforderungsnachrichten bei HTTP den Beschreibungen zu",
+            "points": 4,
+            "keywords": {
+                "GET": 1,
+                "HEAD": 2,
+                "PUT": 3,
+                "POST": 4
+            },
+            "choices": [
+                "Bereitstellung von Daten, die einem Dokument hinzugefügt werden sollen",
+                "Anforderung, ein Dokument zu speichern",
+                "Anforderung, den Header eines Dokuments zurückzugeben",
+				"Anforderung, ein Dokument an den Client zurückzugeben"
+            ],
+            "correct": {
+                "1": "Anforderung, ein Dokument an den Client zurückzugeben",
+                "2": "Anforderung, den Header eines Dokuments zurückzugeben",
+                "3": "Anforderung, ein Dokument zu speichern",
+                "4": "Bereitstellung von Daten, die einem Dokument hinzugefügt werden sollen"
+            }
+        },
+        {
+            "type": "allocation",
+            "title": "Network Devices",
+            "text": "Auf welchen Schichten arbeiten die einzelnen Netzkoppelelemente?",
+            "points": 6,
+            "keywords": {
+                "Switches": 1,
+                "Gateway": 2,
+                "Router": 3,
+                "Bridges": 4,
+                "Repeater": 5,
+                "Hubs": 6
+            },
+            "choices": [
+                "Allen",
+                "Bitübertragungsschicht",
+                "Vermittlungsschicht",
+				"Sicherungsschicht"
+
+            ],
+            "correct": {
+                "1": "Sicherungsschicht",
+                "2": "Allen",
+                "3": "Vermittlungsschicht",
+                "4": "Sicherungsschicht",
+                "5": "Bitübertragungsschicht",
+                "6": "Bitübertragungsschicht"
+            }
+        }
+    ]
+}

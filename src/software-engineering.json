@@ -1,0 +1,162 @@
+{
+    "exam": "Software-Engineering",
+    "questions": [
+        {
+            "type": "open",
+            "title": "Vorgangsmodelle",
+            "text": [
+        "Was versteht man unter dem Code-and-Fix-Modell, und welche zwei Hauptnachteile hat es?"],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 4-7, Abschnitte „Code and Fix“ und „Vor- und Nachteile von Code and Fix“."
+        },
+        {
+            "type": "open",
+            "title": "Vorgangsmodelle",
+            "text": [
+        "Beschreiben Sie die grundlegenden Schritte des Wasserfallmodells und nennen Sie einen Nachteil, der bei diesem Ansatz auftreten kann."],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 12-16, Abschnitte „Wasserfallmodell“ und „Kritik am Wasserfallmodell“."
+        },
+        {
+            "type": "open",
+            "title": "Vorgangsmodelle",
+            "text": [
+        "Erläutern Sie kurz, was das V-Modell ist und welche Hauptidee hinter der Verbindung von Test- und Entwicklungsphasen steht."],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 18, Abschnitt „V-Modell nach Boehm“."
+        },
+        {
+            "type": "open",
+            "title": "Vorgangsmodelle",
+            "text": [
+        "Was ist ein Software-Prototyp, und wie kann er helfen, Anforderungen besser zu verstehen?"],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 21-25, Abschnitte „Prototyping“ und „Zweck des Software-Prototypings“."
+        },
+        {
+            "type": "open",
+            "title": "Vorgangsmodelle",
+            "text": [
+        "Welche zwei zentralen Elemente machen das Spiralmodell besonders?"],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 38-40, Abschnitte „Idee des Spiralmodells“ und „Spiralmodell: Schema“."
+        },
+        {
+            "type": "open",
+            "title": "Requirments Engineering",
+            "text": [
+        "Was ist eine Anforderung im Kontext des Requirements Engineering? Geben Sie zwei Beispiele für funktionale und nicht-funktionale Anforderungen."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 7 und 36-37 (Grundbegriffe der Analyse, Funktionale vs. Nichtfunktionale Anforderungen)"
+        },
+        {
+            "type": "open",
+            "title": "Requirments Engineering",
+            "text": [
+        "Erklären Sie den Begriff Stakeholder und nennen Sie drei Stakeholder-Typen, die typischerweise in Softwareprojekten beteiligt sind."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 24-27 (System Stakeholders, Checkliste zum Finden von Stakeholdern)."
+        },
+        {
+            "type": "open",
+            "title": "Requirments Engineering",
+            "text": [
+        "Welche Herausforderungen können bei der Ermittlung von Anforderungen auftreten? Nennen Sie zwei Methoden, um diese Herausforderungen zu überwinden."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 67-73 (Problems of requirements elicitation, Ermittlungstechniken)."
+        },
+        {
+            "type": "open",
+            "title": "Requirments Engineering",
+            "text": [
+        "Beschreiben Sie, was ein Use Case ist und wie er bei der Anforderungsermittlung hilft. Geben Sie ein einfaches Beispiel."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 91-96 (Use Cases, Beispiel: Use Case)."
+        },
+        {
+            "type": "open",
+            "title": "Requirments Engineering",
+            "text": [
+        "Warum sind nicht-funktionale Anforderungen wichtig? Nennen Sie zwei Beispiele und erklären Sie, warum ihre Präzisierung oft schwierig ist."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 36-39 (Nichtfunktionale Anforderungen)."
+        },
+        {
+            "type": "open",
+            "title": "Modellierung",
+            "text": [
+        "Warum ist die Modellierung ein wichtiger Schritt in der Softwareentwicklung? Nennen Sie zwei zentrale Ziele der Modellierung und erklären Sie, wie sie den Entwicklungsprozess unterstützen."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 4-6 (Ziele der Modellierung)."
+        },{
+            "type": "open",
+            "title": "Modellierung",
+            "text": [
+        "Beschreiben Sie, was UML ist und welche Art von Informationen durch UML-Diagramme dargestellt werden können."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 5-8 (Einordnung der UML)."
+        },{
+            "type": "open",
+            "title": "Modellierung",
+            "text": [
+        "Was sind Struktur- und Verhaltensdiagramme in der UML? Nennen Sie jeweils ein Beispiel für ein Diagramm aus beiden Kategorien."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 8-9 (Gliederung der UML-Diagramme)."
+        },{
+            "type": "open",
+            "title": "Modellierung",
+            "text": [
+        "Was ist ein Use-Case-Diagramm, und wie unterstützt es die Anforderungsanalyse? Nennen Sie ein Beispiel für einen Use Case."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 11-16 (Use-Case-Diagramm)."
+        },{
+            "type": "open",
+            "title": "Modellierung",
+            "text": [
+        "Wie ergänzen sich Aktivitäts- und Sequenzdiagramme in der Modellierung? Beschreiben Sie kurz, welche Aspekte jedes der Diagramme abdeckt."],
+            "points": 10.0,
+            "hint": "Siehe Skript, Seiten 32-34 und 79-81 (Aktivitätsdiagramme und Sequenzdiagramme)."
+        },
+        {
+            "type": "open",
+            "title": "Entwurf",
+            "text": [
+        "Warum ist der Software-Entwurf ein essenzieller Schritt im Entwicklungsprozess? Nennen Sie eines der drei Hauptziele des Software-Entwurfs und beschreiben Sie, warum es wichtig ist."],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 6-7, Abschnitt „Ziele des Entwurfs“."
+        },
+        {
+            "type": "open",
+            "title": "Entwurf",
+            "text": [
+        "Erläutern Sie die Unterschiede zwischen der Top-down- und Bottom-up-Entwicklung. Wann ist es sinnvoll, die Bottom-up-Strategie zu verwenden?"],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 11-12, Abschnitte „Top-down- und Bottom-up-Entwicklung“."
+        },
+        {
+            "type": "open",
+            "title": "Entwurf",
+            "text": [
+        "Was versteht man unter einer hierarchischen Gliederung im Software-Entwurf, und wie trägt sie zur Beherrschung der Komplexität bei?"],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 46-47, Abschnitt „Die hierarchische Gliederung“."
+        },
+        {
+            "type": "open",
+            "title": "Entwurf",
+            "text": [
+        "Nennen und erklären Sie eines der fünf Prinzipien des Architekturentwurfs. Geben Sie ein Beispiel, wie dieses Prinzip in der Praxis angewendet werden kann."],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 27-29, Abschnitt „Prinzipien des Architekturentwurfs“."
+        },
+        {
+            "type": "open",
+            "title": "Entwurf",
+            "text": [
+        "Was sind Design Patterns, und wie können sie die Entwicklung einer flexiblen und wartbaren Software unterstützen? Geben Sie ein Beispiel für ein bekanntes Design Pattern und dessen Nutzen."],
+            "points": 10.0,
+            "hint": "Siehe Skript S. 78-80, Abschnitt „Design Patterns“."
+        }
+                
+    ]
+}

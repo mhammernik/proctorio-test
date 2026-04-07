@@ -1,0 +1,149 @@
+{
+    "exam": "IT-Infrastruktur",
+    "questions": [
+    {
+      "type": "open",
+      "title": "Moore's Law",
+      "text": [
+        "Erläutern Sie Moore's Law und seine Auswirkungen auf die Mikroprozessorleistung."
+      ],
+      "points": 10.0,
+      "hint": "Seite 5"
+    },
+    {
+      "type": "open",
+      "title": "Grenzen von Moore's Law",
+      "text": [
+        "Nennen und erläutern Sie zwei Gründe, warum Moore's Law an seine Grenzen stößt."
+      ],
+      "points": 15.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Metcalfe's Gesetz",
+      "text": [
+        "Erläutern Sie Metcalfe's Gesetz und seine Bedeutung für die Netzwerkökonomie."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Plan-Build-Run-Modell",
+      "text": [
+        "Beschreiben Sie die drei Phasen des Plan-Build-Run-Modells im IT-Infrastrukturmanagement."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Source-Make-Deliver",
+      "text": [
+        "Erläutern Sie das Konzept von Source-Make-Deliver im Kontext der IT-Wertschöpfungskette."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Rechenzentrum: Standortauswahl",
+      "text": [
+        "Nennen Sie fünf Kriterien, die bei der Standortauswahl für ein Rechenzentrum berücksichtigt werden sollten."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Backup-Strategien",
+      "text": [
+        "Vergleichen Sie die folgenden Backup-Strategien: Synchrones Laufwerk, Zwei Vollbackups und Differentielles Backup. Gehen Sie dabei auf die Vor- und Nachteile jeder Strategie ein."
+      ],
+      "points": 15.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Rechnerarchitekturen",
+      "text": [
+        "Erläutern Sie die Funktionsweise der Von-Neumann- und der Harvard-Rechnerarchitektur. Gehen Sie dabei auf die Unterschiede zwischen den beiden Architekturen ein."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Netzwerkkomponenten",
+      "text": [
+        "Erläutern Sie den Unterschied zwischen aktiven und passiven Netzwerkkomponenten und geben Sie jeweils zwei Beispiele."
+      ],
+      "points": 5.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "OSI-Schichten",
+      "text": [
+        "Beschreiben Sie die Funktionen von drei beliebigen Schichten des OSI-Modells."
+      ],
+      "points": 5.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "WPAN-Technologien",
+      "text": [
+        "Nennen und erläutern Sie drei verschiedene WPAN-Technologien."
+      ],
+      "points": 5.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Cloud Computing vs. Edge Computing",
+      "text": [
+        "Vergleichen Sie Cloud Computing und Edge Computing. Gehen Sie dabei auf die Vor- und Nachteile beider Konzepte ein."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Geografische Ausweitung von Netzwerken",
+      "text": [
+        "Erläutern Sie die verschiedenen Arten der geografischen Ausweitung von Netzwerken (PAN, LAN, MAN, WAN, GAN) und geben Sie jeweils ein Beispiel."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Verschlüsselungsverfahren",
+      "text": [
+        "Erläutern Sie die Unterschiede zwischen symmetrischer und asymmetrischer Verschlüsselung und geben Sie jeweils ein Beispiel."
+      ],
+      "points": 10.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Authentifizierungsmethoden",
+      "text": [
+        "Nennen und erläutern Sie drei verschiedene Authentifizierungsmethoden."
+      ],
+      "points": 5.0,
+      "hint": "Seite 1"
+    },
+    {
+      "type": "open",
+      "title": "Multiplexing-Verfahren",
+      "text": [
+        "Erläutern Sie die Unterschiede zwischen synchronem und asynchronem Multiplexing."
+      ],
+      "points": 5.0,
+      "hint": "Seite 1"
+    }
+  ]
+}

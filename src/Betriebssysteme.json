@@ -1,0 +1,175 @@
+{
+  "exam": "Betriebssysteme",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "title": "Hauptaufgaben des Betriebssystems",
+      "text": "Welche der folgenden Punkte gehören zu den drei Hauptaufgaben eines Betriebssystems?",
+      "points": 1,
+      "options": [
+        { "text": "A) Abstraktion, Allokation, Arbitration", "isCorrect": true },
+        { "text": "B) Scheduling, Paging, Deadlock Handling", "isCorrect": false },
+        { "text": "C) Kompilierung, Optimierung, Linken", "isCorrect": false },
+        { "text": "D) Virtualisierung, Containerisierung, Cloud", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Systemarchitektur",
+      "text": "In welchem Modus können privilegierte Instruktionen ausgeführt werden?",
+      "points": 1,
+      "options": [
+        { "text": "A) User-Modus (Ring 3)", "isCorrect": false },
+        { "text": "B) Kernel-Modus (Ring 0)", "isCorrect": true },
+        { "text": "C) Supervisor-Modus (Ring 2)", "isCorrect": false },
+        { "text": "D) Applikationsmodus (Ring 5)", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Kernel-Modelle zuordnen",
+      "text": "Ordnen Sie den Kernelmodellen die korrekten Eigenschaften zu.",
+      "points": 5,
+      "keywords": {
+        "Monolithischer Kernel": 1,
+        "Mikrokernel": 2,
+        "Hybridkernel": 3
+      },
+      "choices": [
+        "Alle Funktionen im Kernel, hohe Effizienz, geringe Modularität",
+        "Nur Grundfunktionen im Kernel, Dienste im User-Modus",
+        "Kombination beider Ansätze, Beispiele: Windows NT, macOS"
+      ],
+      "correct": {
+        "1": "Alle Funktionen im Kernel, hohe Effizienz, geringe Modularität",
+        "2": "Nur Grundfunktionen im Kernel, Dienste im User-Modus",
+        "3": "Kombination beider Ansätze, Beispiele: Windows NT, macOS"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Bootvorgang",
+      "text": "Welche ist die richtige Reihenfolge des Bootvorgangs?",
+      "points": 1,
+      "options": [
+        { "text": "A) Init → Kernel → Bootloader → BIOS/UEFI", "isCorrect": false },
+        { "text": "B) BIOS/UEFI → Bootloader → Kernel → Init", "isCorrect": true },
+        { "text": "C) Bootloader → BIOS → Kernel → Init", "isCorrect": false },
+        { "text": "D) BIOS/UEFI → Kernel → Init → Bootloader", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Von-Neumann-Architektur",
+      "text": "Welches Merkmal beschreibt den Von-Neumann-Rechner korrekt?",
+      "points": 1,
+      "options": [
+        { "text": "A) Trennung von Daten- und Befehlspeicher", "isCorrect": false },
+        { "text": "B) Einheit von Daten- und Befehlspeicher", "isCorrect": true },
+        { "text": "C) Parallele Fetch- und Execute-Einheiten", "isCorrect": false },
+        { "text": "D) Kein sequentieller Ablauf möglich", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "code",
+      "title": "Interrupt-Arten",
+      "text": "Welche der folgenden Beschreibungen gehört zu einem Software-Interrupt?",
+      "points": 2,
+      "code": [
+        "// Interrupt-Arten:",
+        "// 1. durch externe Geräte ausgelöst",
+        "// 2. durch Programmcode ausgelöst",
+        "// 3. durch Division durch 0 ausgelöst"
+      ],
+      "options": [
+        { "text": "A) Hardware-Interrupt", "isCorrect": false },
+        { "text": "B) Software-Interrupt", "isCorrect": true },
+        { "text": "C) Exception", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Prozesszustände",
+      "text": "Welcher ist die richtige Abfolge der Prozesszustände?",
+      "points": 1,
+      "options": [
+        { "text": "A) Ready → Running → Terminated → Waiting", "isCorrect": false },
+        { "text": "B) New → Ready → Running → Waiting → Terminated", "isCorrect": true },
+        { "text": "C) Running → Waiting → New → Terminated", "isCorrect": false },
+        { "text": "D) Waiting → Running → Ready → New", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Deadlock-Bedingungen",
+      "text": "Ordnen Sie den Coffman-Bedingungen die richtigen Definitionen zu.",
+      "points": 4,
+      "keywords": {
+        "Mutual Exclusion": 1,
+        "Hold and Wait": 2,
+        "No Preemption": 3,
+        "Circular Wait": 4
+      },
+      "choices": [
+        "Mindestens eine Ressource ist exklusiv",
+        "Prozess hält Ressourcen und wartet auf weitere",
+        "Ressourcen können nicht entzogen werden",
+        "Zyklische Abhängigkeit zwischen Prozessen"
+      ],
+      "correct": {
+        "1": "Mindestens eine Ressource ist exklusiv",
+        "2": "Prozess hält Ressourcen und wartet auf weitere",
+        "3": "Ressourcen können nicht entzogen werden",
+        "4": "Zyklische Abhängigkeit zwischen Prozessen"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Speicherverwaltung",
+      "text": "Welches Verfahren der Speicherverwaltung teilt den Speicher in gleich große Blöcke ein?",
+      "points": 1,
+      "options": [
+        { "text": "A) Paging", "isCorrect": true },
+        { "text": "B) Segmentierung", "isCorrect": false },
+        { "text": "C) Variable Partitionierung", "isCorrect": false },
+        { "text": "D) Feste Partitionierung", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Virtualisierung",
+      "text": "Welches der folgenden Beispiele ist ein Typ-1-Hypervisor?",
+      "points": 1,
+      "options": [
+        { "text": "A) VMware ESXi", "isCorrect": true },
+        { "text": "B) VirtualBox", "isCorrect": false },
+        { "text": "C) Parallels Desktop", "isCorrect": false },
+        { "text": "D) VMware Workstation", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiline_text",
+      "title": "Scheduling: Durchschnittliche Wartezeit",
+      "text": "Gegeben seien 4 Prozesse mit den CPU-Burst-Zeiten: P1 = 10 ms, P2 = 4 ms, P3 = 6 ms, P4 = 8 ms.\n\nBerechnen Sie die durchschnittliche Wartezeit und die durchschnittliche Antwortzeit bei Anwendung von First Come First Serve (FCFS) und Shortest Job First (SJF).",
+      "points": 5
+    },
+    {
+      "type": "multiline_text",
+      "title": "Virtueller Speicher: Seitenfehler",
+      "text": "Gegeben sei die Seitenreferenzfolge: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2.\nAnzahl der Rahmen = 3.\n\nBerechnen Sie die Anzahl der Seitenfehler bei Anwendung von FIFO und LRU als Seitenersetzungsalgorithmen.",
+      "points": 5
+    },
+    {
+      "type": "multiline_text",
+      "title": "CPU-Auslastung",
+      "text": "Die Wahrscheinlichkeit, dass ein Prozess auf E/A wartet, beträgt p = 0,8.\n\nBerechnen Sie die CPU-Auslastung für 1, 2 und 4 Prozesse. (Hinweis: Formel: CPU-Auslastung = 1 - p^n).",
+      "points": 4
+    },
+    {
+      "type": "multiline_text",
+      "title": "Paging: Adressumsetzung",
+      "text": "Gegeben sei eine virtuelle Adresse = 3000 (dezimal).\nSeitengröße = 1024 Byte (1 KB).\nSeitentabelle:\nSeite 0 → Frame 5\nSeite 1 → Frame 9\nSeite 2 → Frame 3\n\nBerechnen Sie die physische Adresse.",
+      "points": 4
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "exam": "ESG (Environmental, Social and Governance)",
+  "questions": [
+    {
+      "type": "multiline_text",
+      "title": "Transferaufgabe: SDG-Reporting in Ihrem Unternehmen",
+      "text": [
+        "a. Welche Maßnahmen zur Zielerreichung werden genannt? (Beispiel für 2 Ziele)",
+        "b. Gibt es Indikatoren zur Zielerreichung? (Beispiele für 2 Ziele)",
+        "c. Was wird in Bezug auf die Zielerreichung berichtet? (Beispiele für 2 Ziele)"
+      ],
+      "points": 10
+    },
+    {
+      "type": "multiple_choice",
+      "title": "EU-Taxonomie",
+      "text": "Welche der folgenden Ziele sind Teil der EU-Taxonomie?",
+      "points": 2,
+      "options": [
+        {
+          "text": "A) Schutz des Klimas",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Förderung fossiler Energien",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Kreislaufwirtschaft",
+          "isCorrect": true
+        },
+        {
+          "text": "D) Arbeitsplatzsicherung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Wirklichkeitsanalyse",
+      "text": "Welche Perspektiven umfasst die doppelte Wesentlichkeit im CSRD-Kontext?",
+      "points": 2,
+      "options": [
+        {
+          "text": "A) Finanzielle Wesentlichkeit",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Psychologische Wesentlichkeit",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Impact-Wesentlichkeit",
+          "isCorrect": true
+        },
+        {
+          "text": "D) Historische Wesentlichkeit",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Life-Cycle-Assessment",
+      "text": "Was beinhaltet ein Life-Cycle-Assessment (LCA)?",
+      "points": 2,
+      "options": [
+        {
+          "text": "A) Bewertung der gesamten Lebensdauer eines Produkts",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Fokus auf Unternehmensgewinne",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Betrachtung von Produktions-, Nutzungs- und Entsorgungsphase",
+          "isCorrect": true
+        },
+        {
+          "text": "D) Nur CO2-Bilanzierung",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Utilitarismus",
+      "text": "Was ist gemäß dem Utilitarismus moralisch richtig?",
+      "points": 2,
+      "options": [
+        {
+          "text": "A) Die Handlung, die den meisten Nutzen für die meisten Menschen bringt",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Die Handlung, die gesetzlich erlaubt ist",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Die Handlung, die auf Tradition beruht",
+          "isCorrect": false
+        },
+        {
+          "text": "D) Die Handlung, die persönlichen Gewinn maximiert",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiline_text",
+      "title": "Sensoria Aufgabe: Ethische Bewertung von Whistleblowing",
+      "text": [
+        "1. In welchem ethischen Konflikt befinden sich Whistleblower?",
+        "2. Welche Entscheidung ist richtig:",
+        "- aus Sicht der Tugendlehre/Gerechtigkeit",
+        "- aus Sicht der Deontologie/universale Rechte",
+        "- aus Sicht des Utilitarismus/Nützlichkeit der meisten?"
+      ],
+      "points": 6
+    },
+    {
+      "type": "multiline_text",
+      "title": "Sensoria Aufgabe: Konzept für Hinweisgebersystem",
+      "text": [
+        "Entwickeln Sie ein Konzept zur Einführung eines effektiven Hinweisgebersystems.",
+        "Welche Voraussetzungen müssen gegeben sein, damit das System effektiv funktioniert?"
+      ],
+      "points": 6
+    }
+  ]
+}

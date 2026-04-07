@@ -1,0 +1,235 @@
+{
+  "exam": "Technologietrends & Innovationsmanagement",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "title": "Brainstorming Regeln",
+      "text": "Welche Grundregel ist beim Brainstorming laut Skript unbedingt einzuhalten?",
+      "points": 1,
+      "options": [
+        { "text": "A) Ideen müssen sofort auf ihre Machbarkeit geprüft werden.", "isCorrect": false },
+        { "text": "B) Kritik an geäußerten Ideen ist während der Ideenfindung verboten.", "isCorrect": true },
+        { "text": "C) Es dürfen nur qualitativ hochwertige Ideen geäußert werden.", "isCorrect": false },
+        { "text": "D) Der Moderator muss jede Idee sofort bewerten.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Quality Gates",
+      "text": "Was ist die Hauptfunktion eines 'Quality Gates' im Stage-Gate-Modell?",
+      "points": 1,
+      "options": [
+        { "text": "A) Die Generierung neuer Ideen durch Kreativtechniken.", "isCorrect": false },
+        { "text": "B) Die Überprüfung des Projektfortschritts und Entscheidung über das weitere Vorgehen nach jeder Phase.", "isCorrect": true },
+        { "text": "C) Die Markteinführung des fertigen Produkts.", "isCorrect": false },
+        { "text": "D) Die Rückkopplung von Wissen in den Forschungspool.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Phasen des Brainstormings",
+      "text": "Bringen Sie die Phasen eines Brainstormings in die richtige zeitliche Reihenfolge.",
+      "points": 3,
+      "keywords": {
+        "Phase 1": 1,
+        "Phase 2": 2,
+        "Phase 3": 3
+      },
+      "choices": [
+        "Flaute (Ideen wirken lassen)",
+        "Neue Ideen werden entwickelt (Assoziationen)",
+        "Anschubphase & Ideengenerierung"
+      ],
+      "correct": {
+        "1": "Anschubphase & Ideengenerierung",
+        "2": "Flaute (Ideen wirken lassen)",
+        "3": "Neue Ideen werden entwickelt (Assoziationen)"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Chain-linked-Modell",
+      "text": "Was kennzeichnet das Chain-linked-Modell nach Kline/Rosenberg im Gegensatz zu linearen Modellen besonders?",
+      "points": 1,
+      "options": [
+        { "text": "A) Es verläuft streng linear von der Forschung zum Vertrieb.", "isCorrect": false },
+        { "text": "B) Es verzichtet vollständig auf Forschung und Entwicklung.", "isCorrect": false },
+        { "text": "C) Es fokussiert stark auf Wissenspools und Feedback-Schleifen.", "isCorrect": true },
+        { "text": "D) Es nutzt Quality Gates zur strikten Trennung der Phasen.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Prozessphasen Input-Throughput-Output",
+      "text": "Ordnen Sie die Begriffe den Phasen Input, Throughput (Umsetzung) und Output im Innovationsprozess zu.",
+      "points": 6,
+      "keywords": {
+        "Ideenbewertung": 1,
+        "Prototypenbau": 2,
+        "Markteinführung": 3,
+        "Produktsupport": 4,
+        "Konstruktion & Entwicklung": 5,
+        "Marktanalyse": 6
+      },
+      "choices": [
+        "Input (Idee)",
+        "Throughput (Umsetzung)",
+        "Output (Innovation)"
+      ],
+      "correct": {
+        "1": "Input (Idee)",
+        "2": "Throughput (Umsetzung)",
+        "3": "Output (Innovation)",
+        "4": "Output (Innovation)",
+        "5": "Throughput (Umsetzung)",
+        "6": "Input (Idee)"
+      }
+    },
+  {
+     "type": "image",
+    "title": "Methodenklassifizierung: Intuitives vs. Diskursives Denken",
+    "text": "Betrachten Sie das Diagramm auf Seite 73. Welche Denkart wird durch die vertikale Achse (y-Achse) und welche durch die horizontale Achse (x-Achse) repräsentiert?",
+    "points": 2,
+    "imageUrl": "assests/DenkMatrix.png",
+    "options": [
+      { "text": "A) y-Achse: Diskursives Denken; x-Achse: Intuitives Denken", "isCorrect": false },
+      { "text": "B) y-Achse: Intuitives Denken; x-Achse: Diskursives Denken", "isCorrect": true },
+      { "text": "C) y-Achse: Strategisches Denken; x-Achse: Operatives Denken", "isCorrect": false },
+      { "text": "D) y-Achse: Kreativität; x-Achse: Logik", "isCorrect": false }
+    ]
+  },
+  {
+      "type": "multiple_choice",
+      "title": "Dimensionen des Innovationsmanagements",
+      "text": "Welche der folgenden Dimensionen gehören zu den vier Dimensionen des Innovationsmanagements gemäß dem Skript?",
+      "points": 1,
+      "options": [
+        { "text": "A) Finanzielle, Temporäre, Soziale, Kognitive Dimension", "isCorrect": false },
+        { "text": "B) Prozessuale, Personelle, Strukturelle, Instrumentelle Dimension", "isCorrect": true },
+        { "text": "C) Strategische, Operative, Taktische, Analytische Dimension", "isCorrect": false },
+        { "text": "D) Interne, Externe, Globale, Lokale Dimension", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Innovationsprozess-Modelle zuordnen",
+      "text": "Ordnen Sie die Eigenschaften den entsprechenden Innovationsmodellen zu.",
+      "points": 4,
+      "keywords": {
+        "Stage-Gate-Modell": 1,
+        "Chain-linked-Modell": 2,
+        "Innovationstrichter": 3,
+        "Open Innovation": 4
+      },
+      "choices": [
+        "Zerlegung in Phasen mit Entscheidungstoren (Gates) zur Prüfung des Fortschritts.",
+        "Fokussierung auf Wissenspools, Feedback-Schleifen und Lernprozesse.",
+        "Filterung von Ideen von einer breiten Basis (Ideengenerierung) bis zur Markteinführung.",
+        "Öffnung der Innovationstätigkeiten für die Außenwelt ('proudly found elsewhere')."
+      ],
+      "correct": {
+        "1": "Zerlegung in Phasen mit Entscheidungstoren (Gates) zur Prüfung des Fortschritts.",
+        "2": "Fokussierung auf Wissenspools, Feedback-Schleifen und Lernprozesse.",
+        "3": "Filterung von Ideen von einer breiten Basis (Ideengenerierung) bis zur Markteinführung.",
+        "4": "Öffnung der Innovationstätigkeiten für die Außenwelt ('proudly found elsewhere')."
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Technology Push vs. Market Pull",
+      "text": "Welches Szenario beschreibt einen 'Market Pull'?",
+      "points": 1,
+      "options": [
+        { "text": "A) Ein Labor entwickelt einen neuen Werkstoff ohne konkrete Anwendung.", "isCorrect": false },
+        { "text": "B) Kunden fordern eine Lösung für ein spezifisches Problem, woraufhin entwickelt wird.", "isCorrect": true },
+        { "text": "C) Eine Technologie wird durch Marketing künstlich in den Markt gedrückt.", "isCorrect": false },
+        { "text": "D) Die Entwicklung basiert rein auf Zufallsfunden.", "isCorrect": false }
+      ]
+    },
+    {
+        "type": "image",
+        "title": "Analyse des Innovationstrichters",
+        "text": "Was ist die richtige Abfolge beim Innovationstrichter?",
+        "points": 1,
+        "imageUrl": "assests/innovationstrichter.jpg",
+        "options": [
+            {
+            "text": "A) Ideengenerierung → Grobkonzept → Feinkonzept → Markteinführung",
+            "isCorrect": true
+            },
+            {
+            "text": "B) Grobkonzept → Ideengenerierung → Markteinführung → Feinkonzept",
+            "isCorrect": false
+            },
+            {
+            "text": "C) Feinkonzept → Grobkonzept → Ideengenerierung → Markteinführung",
+            "isCorrect": false
+            },
+            {
+            "text": "D) Ideengenerierung → Feinkonzept → Grobkonzept → Markteinführung",
+            "isCorrect": false
+            }
+        ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Methode 6-3-5",
+      "text": "Was ist ein charakteristisches Merkmal der Methode 6-3-5?",
+      "points": 1,
+      "options": [
+        { "text": "A) 6 Teilnehmer diskutieren 3 Stunden lang über 5 Ideen.", "isCorrect": false },
+        { "text": "B) Es ist eine rein mündliche Form des Brainstormings ohne Aufzeichnungen.", "isCorrect": false },
+        { "text": "C) 6 Teilnehmer notieren 3 Ideen in 5 Minuten und reichen das Blatt weiter.", "isCorrect": true },
+        { "text": "D) 6 Experten bewerten 3 Konzepte anhand von 5 Kriterien.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Synektik Analogien",
+      "text": "Ordnen Sie die Arten der Analogien in der Synektik ihren Beschreibungen zu.",
+      "points": 4,
+      "keywords": {
+        "Persönliche Analogie": 1,
+        "Direkte Analogie": 2,
+        "Symbolische Analogie": 3,
+        "Analogie durch Fantasie": 4
+      },
+      "choices": [
+        "Identifikation mit dem Gegenstand (Wie würde ich mich als Zahnrad fühlen?).",
+        "Vergleich mit Fakten/Wissen aus anderen Bereichen (z.B. Biologie/Bionik).",
+        "Bildhafte, komprimierte Beschreibung (oft paradox, z.B. 'freischwebende Festigkeit').",
+        "Lösungen jenseits physikalischer Gesetze (Wunschdenken). "
+      ],
+      "correct": {
+        "1": "Identifikation mit dem Gegenstand (Wie würde ich mich als Zahnrad fühlen?).",
+        "2": "Vergleich mit Fakten/Wissen aus anderen Bereichen (z.B. Biologie/Bionik).",
+        "3": "Bildhafte, komprimierte Beschreibung (oft paradox, z.B. 'freischwebende Festigkeit').",
+        "4": "Lösungen jenseits physikalischer Gesetze (Wunschdenken). "
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Conjoint Measurement Ziel",
+      "text": "Was ist das primäre Ziel des Conjoint Measurement?",
+      "points": 1,
+      "options": [
+        { "text": "A) Die technische Machbarkeit eines Produktes zu prüfen.", "isCorrect": false },
+        { "text": "B) Den Beitrag einzelner Produktmerkmale zum Gesamtnutzen durch Präferenzurteile zu ermitteln.", "isCorrect": true },
+        { "text": "C) Eine reine Kostenanalyse für die Produktion zu erstellen.", "isCorrect": false },
+        { "text": "D) Kreative Ideen durch Brainwriting zu generieren.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiline_text",
+      "title": "Nutzwertanalyse Berechnung",
+      "text": "Ein Unternehmen wählt eine Software aus zwei Alternativen (A und B). Das Kriterium 'Kosten' wird mit 50% gewichtet, 'Benutzerfreundlichkeit' mit 50%.\n\nAlternative A erhält bei Kosten 8 Punkte und bei Benutzerfreundlichkeit 4 Punkte.\nAlternative B erhält bei Kosten 2 Punkte und bei Benutzerfreundlichkeit 9 Punkte.\n\nBerechnen Sie den Gesamtnutzwert für beide Alternativen und entscheiden Sie, welche Software gewählt werden sollte.",
+      "points": 5
+    },
+    {
+      "type": "multiline_text",
+      "title": "Transferaufgabe Inovationstrategie",
+      "text": "Beschreiben Sie die Inovationstrategie in Ihrem Unternehmen und analysieren Sie, wie diese Strategie zur Wettbewerbsfähigkeit des Unternehmens beiträgt. Gehen Sie dabei auf spezifische Maßnahmen und deren Auswirkungen ein.",
+      "points": 5
+    }
+  ]
+}

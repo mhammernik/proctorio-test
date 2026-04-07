@@ -1,0 +1,169 @@
+{
+    "exam": "Web Security Technologies",
+    "questions": [
+        {
+            "type": "open",
+            "title": "Cross-Site Request Forgery (CSRF)",
+            "text": "Erklären Sie das Prinzip eines CSRF-Angriffs und nennen Sie eine effektive Schutzmaßnahme.",
+            "points": 6
+        },
+        {
+            "type": "open",
+            "title": "Same-Origin Policy",
+            "text": "Was versteht man unter der Same-Origin Policy und warum ist sie wichtig?",
+            "points": 6
+        },
+        {
+            "type": "open",
+            "title": "Public Key Infrastructure (PKI)",
+            "text": "Beschreiben Sie die Rolle einer Zertifizierungsstelle (CA) in einer PKI.",
+            "points": 6
+        },
+        {
+            "type": "open",
+            "title": "Clickjacking",
+            "text": "Was ist Clickjacking und wie kann man sich davor schützen?",
+            "points": 6
+        },
+        {
+            "type": "open",
+            "title": "Content Security Policy (CSP)",
+            "text": "Erklären Sie die Funktionsweise einer Content Security Policy.",
+            "points": 6
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Sichere Passwortspeicherung",
+            "text": "Welche der folgenden Maßnahmen verbessern die Sicherheit gespeicherter Passwörter?",
+            "points": 6,
+            "options": [
+                "Salting von Passwörtern",
+                "MD5-Hashing ohne Salt",
+                "Verwendung von bcrypt",
+                "Speicherung im Klartext"
+            ],
+            "correct": [
+                "Salting von Passwörtern",
+                "Verwendung von bcrypt"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Schutz vor Brute-Force-Angriffen",
+            "text": "Welche Mechanismen erschweren Brute-Force-Angriffe?",
+            "points": 6,
+            "options": [
+                "Account-Sperrung nach mehreren Fehlversuchen",
+                "CAPTCHAs",
+                "MD5 als Hash-Algorithmus",
+                "Langsame Hash-Funktionen wie Argon2"
+            ],
+            "correct": [
+                "Account-Sperrung nach mehreren Fehlversuchen",
+                "CAPTCHAs",
+                "Langsame Hash-Funktionen wie Argon2"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Web-Sicherheitstechniken",
+            "text": "Welche Methoden helfen, die Sicherheit einer Web-Anwendung zu erhöhen?",
+            "points": 6,
+            "options": [
+                "Verwendung von HTTPS",
+                "XSS-Filter im Browser deaktivieren",
+                "SQL-Injection-Tests ignorieren",
+                "Regelmäßige Software-Updates"
+            ],
+            "correct": [
+                "Verwendung von HTTPS",
+                "Regelmäßige Software-Updates"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "HTTPS und SSL/TLS",
+            "text": "Welche Vorteile bietet die Nutzung von HTTPS?",
+            "points": 6,
+            "options": [
+                "Verschlüsselte Datenübertragung",
+                "Schutz vor Man-in-the-Middle-Angriffen",
+                "Höhere Ladegeschwindigkeit",
+                "Anonymität im Internet"
+            ],
+            "correct": [
+                "Verschlüsselte Datenübertragung",
+                "Schutz vor Man-in-the-Middle-Angriffen"
+            ]
+        },
+        {
+            "type": "multiple_choice",
+            "title": "Cookies und Sicherheit",
+            "text": "Welche Maßnahmen verbessern die Sicherheit von Cookies?",
+            "points": 6,
+            "options": [
+                "Setzen des HttpOnly-Flags",
+                "Speicherung von Passwörtern in Cookies",
+                "Aktivierung des Secure-Flags",
+                "Verzicht auf Session-Cookies"
+            ],
+            "correct": [
+                "Setzen des HttpOnly-Flags",
+                "Aktivierung des Secure-Flags"
+            ]
+        },
+        {
+            "type": "order",
+            "title": "Phasen eines Penetrationstests",
+            "text": "Ordnen Sie die Phasen eines typischen Penetrationstests in der richtigen Reihenfolge.",
+            "points": 6,
+            "options": {
+                "Planung und Aufklärung": 1,
+                "Scannen": 2,
+                "Zugriffsversuch": 3,
+                "Aufrechterhaltung des Zugangs": 4,
+                "Berichterstellung": 5
+            }
+        },
+        {
+            "type": "order",
+            "title": "HTTPS-Verbindungsaufbau",
+            "text": "Bringen Sie die Schritte des HTTPS-Verbindungsaufbaus in die richtige Reihenfolge.",
+            "points": 6,
+            "options": {
+                "ClientHello": 1,
+                "ServerHello": 2,
+                "Zertifikatsprüfung": 3,
+                "Schlüsselaustausch": 4,
+                "Verschlüsselte Kommunikation": 5
+            }
+        },
+        {
+            "type": "allocation",
+            "title": "OWASP Top 10",
+            "text": "Ordnen Sie die Sicherheitsrisiken den passenden Beschreibungen zu.",
+            "points": 6,
+            "keywords": {
+                "A1": 1,
+                "A2": 2,
+                "A3": 3,
+                "A4": 4,
+                "A5": 5
+            },
+            "choices": [
+                "Injection",
+                "Broken Authentication",
+                "Sensitive Data Exposure",
+                "XML External Entities (XXE)",
+                "Broken Access Control"
+            ],
+            "correct": {
+                "1": "Injection",
+                "2": "Broken Authentication",
+                "3": "Sensitive Data Exposure",
+                "4": "XML External Entities (XXE)",
+                "5": "Broken Access Control"
+            }
+        }
+    ]
+}

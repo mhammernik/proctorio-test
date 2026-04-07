@@ -1,0 +1,142 @@
+{
+  "exam": "Informationssicherheit & Datenschutz",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "title": "Grundsätze der Verarbeitung",
+      "text": "Welche der folgenden Punkte gehören zu den Grundsätzen für die Verarbeitung personenbezogener Daten gemäß Art. 5 Abs. 1 DS-GVO?",
+      "points": 1,
+      "options": [
+        { "text": "A) Rechtmäßigkeit, Transparenz, Datenminimierung, Speicherbegrenzung", "isCorrect": true },
+        { "text": "B) Gewinnmaximierung, Datenhoheit, Big Data Analytics", "isCorrect": false },
+        { "text": "C) Unbegrenzte Speicherung, Weitergabe an Dritte, Public Domain", "isCorrect": false },
+        { "text": "D) Hardware-Verschlüsselung, Firewall, Virenscan", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Begriffsabgrenzung Cyber Security",
+      "text": "Wie grenzt das Skript 'Cyber Security' von der klassischen 'IT-Sicherheit' ab?",
+      "points": 1,
+      "options": [
+        { "text": "A) Cyber Security bezieht sich nur auf Hardware, IT-Sicherheit auf Software.", "isCorrect": false },
+        { "text": "B) IT-Sicherheit hat Systeme im Blick; Cyber Security fokussiert sich auf die vernetzte Welt und den digitalen Raum.", "isCorrect": true },
+        { "text": "C) Es gibt keinen Unterschied, die Begriffe sind synonym.", "isCorrect": false },
+        { "text": "D) Cyber Security ist ein veralteter Begriff aus den 90er Jahren.", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "EU-Rechtsakte zuordnen",
+      "text": "Ordnen Sie den folgenden EU-Verordnungen/Rechtsakten ihre zentralen Regelungsinhalte zu.",
+      "points": 4,
+      "keywords": {
+        "Digital Markets Act (DMA)": 1,
+        "Digital Services Act (DSA)": 2,
+        "Data Act (DA)": 3,
+        "AI Act (KI-VO)": 4
+      },
+      "choices": [
+        "Regelt 'Torwächter' (Gatekeeper) und faire Märkte",
+        "Haftungsprivilegien für Provider und Meldeverfahren für illegale Inhalte",
+        "Harmonisierte Vorschriften für fairen Datenzugang (IoT) und Datennutzung",
+        "Risikobasierter Ansatz für KI-Systeme und verbotene Praktiken"
+      ],
+      "correct": {
+        "1": "Regelt 'Torwächter' (Gatekeeper) und faire Märkte",
+        "2": "Haftungsprivilegien für Provider und Meldeverfahren für illegale Inhalte",
+        "3": "Harmonisierte Vorschriften für fairen Datenzugang (IoT) und Datennutzung",
+        "4": "Risikobasierter Ansatz für KI-Systeme und verbotene Praktiken"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Cyber Resilience Act (CRA) Anwendungsbereich",
+      "text": "Was fällt unter den sachlichen Anwendungsbereich des Cyber Resilience Act (CRA)?",
+      "points": 1,
+      "options": [
+        { "text": "A) Produkte mit digitalen Elementen", "isCorrect": true },
+        { "text": "B) Ausschließlich Betreiber kritischer Infrastrukturen", "isCorrect": false },
+        { "text": "C) Nur reine Software-as-a-Service (SaaS) Lösungen ohne Hardwarebezug", "isCorrect": false },
+        { "text": "D) Analoge Haushaltsgeräte ohne Datenverbindung", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "code",
+      "title": "Rechtmäßigkeit nach Art. 6 DS-GVO",
+      "text": "Welcher Artikel der DS-GVO bildet die Rechtsgrundlage für die in der Funktion geprüften Erlaubnistatbestände?",
+      "points": 2,
+      "code": [
+        "function checkLawfulness(processing) {",
+        "  if (processing.consent == true) return 'ALLOWED';",
+        "  if (processing.contract_performance == true) return 'ALLOWED';",
+        "  if (processing.legal_obligation == true) return 'ALLOWED';",
+        "  if (processing.vital_interests == true) return 'ALLOWED';",
+        "  if (processing.public_interest == true) return 'ALLOWED';",
+        "  if (processing.legitimate_interest == true) return 'ALLOWED';",
+        "  return 'FORBIDDEN';",
+        "}"
+      ],
+      "options": [
+        { "text": "A) Art. 28 DS-GVO", "isCorrect": false },
+        { "text": "B) Art. 6 DS-GVO", "isCorrect": true },
+        { "text": "C) Art. 32 DS-GVO", "isCorrect": false },
+        { "text": "D) Art. 83 DS-GVO", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "title": "KI-Verordnung: Verbotene Praktiken",
+      "text": "Welche der folgenden Praktiken ist nach Art. 5 der KI-Verordnung verboten?",
+      "points": 1,
+      "options": [
+        { "text": "A) Einsatz von KI zur Routenoptimierung", "isCorrect": false },
+        { "text": "B) Social Scoring (Bewertung des sozialen Verhaltens) durch Behörden", "isCorrect": true },
+        { "text": "C) Automatisierte Übersetzung von Texten", "isCorrect": false },
+        { "text": "D) KI-gestützte Spam-Erkennung", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Corporate Governance Theorien",
+      "text": "Ordnen Sie die Eigenschaften den entsprechenden Theorien zu.",
+      "points": 3,
+      "keywords": {
+        "Principal-Agent-Theorie": 1,
+        "Stewardship-Theorie": 2
+      },
+      "choices": [
+        "Economic Man, extrinsische Motivation, Kontrollmechanismen notwendig",
+        "Self-actualizing Man, intrinsische Motivation, Vertrauen als Basis"
+      ],
+      "correct": {
+        "1": "Economic Man, extrinsische Motivation, Kontrollmechanismen notwendig",
+        "2": "Self-actualizing Man, intrinsische Motivation, Vertrauen als Basis"
+      }
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Sanktionen KI-Verordnung",
+      "text": "Wie hoch ist das maximale Bußgeld bei Verstößen gegen verbotene Praktiken (Art. 5) nach der KI-Verordnung?",
+      "points": 1,
+      "options": [
+        { "text": "A) Bis zu 10 Mio. Euro oder 2% des Umsatzes", "isCorrect": false },
+        { "text": "B) Bis zu 20 Mio. Euro oder 4% des Umsatzes", "isCorrect": false },
+        { "text": "C) Bis zu 35 Mio. Euro oder 7% des weltweiten Jahresumsatzes", "isCorrect": true },
+        { "text": "D) Bis zu 50.000 Euro", "isCorrect": false }
+      ]
+    },
+    {
+      "type": "multiline_text",
+      "title": "Datenschutz-Folgenabschätzung (DSFA)",
+      "text": "Erläutern Sie, wann eine Datenschutz-Folgenabschätzung nach Art. 35 DS-GVO zwingend durchzuführen ist. Nennen Sie dabei das zentrale Kriterium bezüglich des Risikos.",
+      "points": 4
+    },
+    {
+      "type": "multiline_text",
+      "title": "Pflichten für Hochrisiko-KI-Systeme",
+      "text": "Nennen Sie drei Pflichten, die Anbieter von Hochrisiko-KI-Systemen gemäß der KI-Verordnung (Art. 8 ff.) erfüllen müssen.",
+      "points": 3
+    }
+  ]
+}

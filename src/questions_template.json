@@ -1,0 +1,108 @@
+{
+  "exam": "Template Exam",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "title": "Multiple Choice Sample",
+      "text": "Welche Aussagen sind korrekt?",
+      "points": 2,
+      "options": [
+        {
+          "text": "A) 2 + 2 = 4",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Die Erde ist flach",
+          "isCorrect": false
+        },
+        {
+          "text": "C) Wasser kocht bei 100 C (auf Meeresh\u00f6he)",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "allocation",
+      "title": "Allocation Sample",
+      "text": "Ordnen Sie jeden Begriff einer passenden Aussage zu.",
+      "points": 3,
+      "keywords": {
+        "CPU": 1,
+        "RAM": 2,
+        "SSD": 3
+      },
+      "choices": [
+        "Fl\u00fcchtiger Arbeitsspeicher",
+        "Recheneinheit",
+        "Persistenter Massenspeicher"
+      ],
+      "correct": {
+        "1": "Recheneinheit",
+        "2": "Fl\u00fcchtiger Arbeitsspeicher",
+        "3": "Persistenter Massenspeicher"
+      }
+    },
+    {
+      "type": "order",
+      "title": "Order Sample",
+      "text": "Bringen Sie die Phasen in die richtige Reihenfolge.",
+      "points": 2,
+      "options": {
+        "Analyse": 1,
+        "Design": 2,
+        "Implementierung": 3,
+        "Test": 4
+      }
+    },
+    {
+      "type": "image",
+      "title": "Image Sample",
+      "text": "Betrachten Sie das Bild und beantworten Sie die Frage.",
+      "points": 2,
+      "imageUrl": "assests/example-image.jpg",
+      "options": [
+        {
+          "text": "A) Aussage 1",
+          "isCorrect": false
+        },
+        {
+          "text": "B) Aussage 2",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "code",
+      "title": "Code Sample",
+      "text": "Welche Aussage zur SQL-Abfrage ist korrekt?",
+      "points": 3,
+      "code": [
+        "SELECT Name",
+        "FROM Studenten",
+        "WHERE MatrNr > 1000;"
+      ],
+      "options": [
+        {
+          "text": "A) Die Abfrage liefert alle Namen mit MatrNr > 1000",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Die Abfrage aktualisiert Datens\u00e4tze",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "multiline_text",
+      "title": "Multiline Text Sample",
+      "text": "Beschreiben Sie den Unterschied zwischen Prim\u00e4r- und Fremdschl\u00fcssel.",
+      "points": 5
+    },
+    {
+      "type": "open",
+      "title": "Open Sample",
+      "text": "Nennen Sie zwei Vorteile von Unit-Tests.",
+      "points": 3
+    }
+  ]
+}

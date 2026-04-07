@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.c-custom-checkbox {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+
+  --checked-state-bg-color: #28a745;
+  --checked-state-check-color: #fff;
+  --outline-color: var(--checked-state-bg-color);
+  --outline-offset: 2px;
+}
+
+/* hide the checkbox accessibly */
+.c-custom-checkbox input[type="checkbox"] {
+  /* remove the checkbox from the page flow, positioning it on top of the SVG */
+  position: absolute;
+  /* set same dimensions as the SVG */
+  width: 1em;
+  height: 1em;
+  /* hide it */
+  opacity: 0.00001;
+}
+
+/* basic styles for the svg */
+.c-custom-checkbox svg {
+  /* set SVG dimensions in ems; i.e. relative to the font size so that it scales with the size of the font. */
+  width: 1em;
+  height: 1em;
+  
+  margin-right: 0.5em;
+  margin-top: .1em;
+
+  /* apply a transition to the elements inside the svg */
+  * {
+    transition: all 0.1s linear;
+  }
+}
+
+/* style changes inside the svg when the checkbox is checked */
+.c-custom-checkbox input[type="checkbox"]:checked + svg {
+  .checkbox__background {
+    fill: var(--checked-state-bg-color);
+    stroke: var(--checked-state-bg-color);
+  }
+
+  .checkbox__checkmark {
+    stroke: var(--checked-state-check-color);
+  }
+}
+
+.c-custom-checkbox input[type="checkbox"]:focus + svg {
+  outline: 3px solid var(--outline-color);
+  outline-offset: var(--outline-offset);
+}
+
+.c-custom-checkbox input[type="checkbox"]:focus:not(:focus-visible) + svg {
+  outline: none;
+}
+
+/* WHCM styles */
+
+.c-custom-checkbox svg {
+  @media screen and (-ms-high-contrast: active) {
+    .checkbox__background {
+      stroke: windowText;
+    }
+  }
+
+  @media screen and (forced-colors: active) {
+        .checkbox__background {
+            stroke: canvasText;
+        }
+    }
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .c-custom-checkbox input[type="checkbox"]:checked + svg {
+    .checkbox__background {
+      fill: windowText;
+		stroke: WindowText;
+    }
+
+    .checkbox__checkmark {
+      stroke: Window;
+    }
+  }
+}
+
+@media screen and (forced-colors: active){
+    .c-custom-checkbox input[type="checkbox"]:checked + svg {
+    .checkbox__background {
+      fill: canvasText;
+		stroke: canvasText;
+    }
+
+    .checkbox__checkmark {
+      stroke: Canvas;
+    }
+  }
+}
+
+.checkbox-label {
+    margin-top: -10px;
+	font-size: 1.0rem;
+	line-height: 2.0;
+	color: hsl(195, 11%, 23%);
+}
