@@ -252,7 +252,7 @@
             saveAnswer(questionNumber, answers);
         }
     </script>
-    <?php elseif ($normalized_question_type === 'image' || $normalized_question_type === 'code'): ?>
+    <?php elseif ($normalized_question_type === 'image' || $normalized_question_type === 'code'): ?>        
 <div class="<?= $current_question['type'] ?>-question">
     <?php if ($normalized_question_type === 'image'): ?>
         <img src="<?= htmlspecialchars($current_question['imageUrl']) ?>" alt="Question Image" class="question-image">
@@ -285,10 +285,20 @@
                 <div class="afterward-question">
                     <p><?= htmlspecialchars($afterwardQuestion) ?></p>
                     <textarea id="afterwardAnswer<?= $question_number ?>_<?= $index ?>" 
+                              class="math-input"
                               placeholder="Antworten hier eingeben..." 
                               oninput="saveAfterwardAnswer(<?= $question_number ?>, <?= $index ?>, this.value)"></textarea>
                 </div>
             <?php endforeach; ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if ($normalized_question_type === 'code' && (!isset($current_question['options']) || !is_array($current_question['options']) || count($current_question['options']) === 0)): ?>
+        <div class="multiline-text-question">
+            <textarea id="answer<?= $question_number ?>"
+                      class="math-input"
+                      placeholder="Antwort:"
+                      oninput="saveAnswer(<?= $question_number ?>, this.value)"></textarea>
         </div>
     <?php endif; ?>
 </div>
@@ -298,6 +308,7 @@
     <p class="question-text">
         </p>
         <textarea id="answer<?= $question_number ?>" 
+                  class="math-input"
                   placeholder="Antwort:" 
                   oninput="saveAnswer(<?= $question_number ?>, this.value)"></textarea>
     </div>
@@ -455,7 +466,7 @@
                         });
                     }
 
-                    if (currentQuestionType === 'multiline_text') {
+                    if (currentQuestionType === 'multiline_text' || (currentQuestionType === 'code' && !hasOptionAnswers)) {
                         const textarea = document.getElementById(`answer${currentQuestionNumber}`);
                         if (textarea) {
                             textarea.value = typeof parsedAnswer === 'string' ? parsedAnswer : '';
@@ -492,7 +503,106 @@
             });
         }
 
-        window.addEventListener('load', renderMath);
+        function buildMathKeyboard(textarea) {
+            const symbols = [
+                { label: '±', insert: '±' },
+                { label: '×', insert: '×' },
+                { label: '÷', insert: '÷' },
+                { label: '≠', insert: '≠' },
+                { label: '≤', insert: '≤' },
+                { label: '≥', insert: '≥' },
+                { label: '∞', insert: '∞' },
+                { label: 'π', insert: 'π' },
+                { label: '∑', insert: '∑' },
+                { label: '∫', insert: '∫' },
+                { label: '√', insert: '√' },
+                { label: '∈', insert: '∈' },
+                { label: '∉', insert: '∉' },
+                { label: '∩', insert: '∩' },
+                { label: '∪', insert: '∪' },
+                { label: '∀', insert: '∀' },
+                { label: '∃', insert: '∃' },
+                { label: 'ℕ', insert: 'ℕ' },
+                { label: 'ℤ', insert: 'ℤ' },
+                { label: 'ℚ', insert: 'ℚ' },
+                { label: 'ℝ', insert: 'ℝ' },
+                { label: 'a^b', insert: '^{__CURSOR__}' },
+                { label: 'a_b', insert: '_{__CURSOR__}' },
+                { label: 'frac', insert: '\\frac{__CURSOR__}{}' },
+                { label: 'sqrt', insert: '\\sqrt{__CURSOR__}' },
+                { label: 'sum', insert: '\\sum_{__CURSOR__}^{}' },
+                { label: 'int', insert: '\\int_{__CURSOR__}^{}' },
+                { label: '→', insert: '→' },
+                { label: '⇔', insert: '⇔' }
+            ];
+
+            const toggleButton = document.createElement('button');
+            toggleButton.type = 'button';
+            toggleButton.className = 'math-keyboard-toggle';
+            toggleButton.textContent = '∑';
+            toggleButton.setAttribute('aria-expanded', 'false');
+            toggleButton.setAttribute('aria-label', 'Mathe-Tastatur anzeigen');
+            toggleButton.setAttribute('title', 'Mathe-Tastatur anzeigen');
+
+            const wrapper = document.createElement('div');
+            wrapper.className = 'math-keyboard is-hidden';
+
+            symbols.forEach(symbol => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = 'math-key';
+                button.textContent = symbol.label;
+                button.addEventListener('click', () => {
+                    const marker = '__CURSOR__';
+                    const insertValue = symbol.insert;
+                    const start = textarea.selectionStart ?? textarea.value.length;
+                    const end = textarea.selectionEnd ?? textarea.value.length;
+                    const before = textarea.value.substring(0, start);
+                    const after = textarea.value.substring(end);
+                    const markerIndex = insertValue.indexOf(marker);
+                    const textToInsert = insertValue.replace(marker, '');
+
+                    textarea.value = before + textToInsert + after;
+
+                    const cursorPos = markerIndex >= 0
+                        ? start + markerIndex
+                        : start + textToInsert.length;
+
+                    textarea.focus();
+                    textarea.setSelectionRange(cursorPos, cursorPos);
+                    textarea.dispatchEvent(new Event('input', { bubbles: true }));
+                });
+
+                wrapper.appendChild(button);
+            });
+
+            toggleButton.addEventListener('click', () => {
+                const isHidden = wrapper.classList.toggle('is-hidden');
+                toggleButton.textContent = '∑';
+                toggleButton.setAttribute('aria-label', isHidden ? 'Mathe-Tastatur anzeigen' : 'Mathe-Tastatur ausblenden');
+                toggleButton.setAttribute('title', isHidden ? 'Mathe-Tastatur anzeigen' : 'Mathe-Tastatur ausblenden');
+                toggleButton.setAttribute('aria-expanded', (!isHidden).toString());
+            });
+
+            textarea.insertAdjacentElement('afterend', toggleButton);
+            toggleButton.insertAdjacentElement('afterend', wrapper);
+        }
+
+        function initMathKeyboards() {
+            document.querySelectorAll('textarea.math-input').forEach(textarea => {
+                if (textarea.dataset.mathKeyboardReady === 'true') {
+                    return;
+                }
+
+                buildMathKeyboard(textarea);
+                textarea.dataset.mathKeyboardReady = 'true';
+            });
+        }
+
+        window.addEventListener('load', () => {
+            renderMath();
+            initMathKeyboards();
+        });
         </script>
     </div>
 </body>

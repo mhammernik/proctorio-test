@@ -1,0 +1,92 @@
+{
+  "exam": "Klausur: Grundlagen der Mathematik für Informatiker",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "title": "Mengenlehre & Logik",
+      "text": "Welche der folgenden mathematischen Aussagen sind wahr? Gehen Sie von den Standarddefinitionen der Mengenlehre und Logik aus.",
+      "points": 4,
+      "options": [
+        {
+          "text": "A) Eine Primzahl $p$ ist nur durch 1 und sich selbst teilbar.",
+          "isCorrect": true
+        },
+        {
+          "text": "B) Die De Morganschen Gesetze besagen: $\\neg(x \\vee y) \\equiv \\neg x \\wedge \\neg y$.",
+          "isCorrect": true
+        },
+        {
+          "text": "C) $(\\mathbb{Z}, +)$ ist ein Körper.",
+          "isCorrect": false
+        },
+        {
+          "text": "D) Wenn $A \\subset B$, dann ist $A \\cap B = B$.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "open",
+      "title": "Zahlensysteme",
+      "text": "Wandeln Sie die Dezimalzahl $202_{10}$ in das Binärsystem und in das Hexadezimalsystem um. Geben Sie den Rechenweg kurz an.",
+      "points": 4
+    },
+    {
+      "type": "open",
+      "title": "Vollständige Induktion",
+      "text": "Beweisen Sie mittels vollständiger Induktion für alle $n \\in \\mathbb{N}$ mit $n \\ge 1$: $\\sum_{k=1}^{n}(2k-1) = n^2$. Führen Sie Induktionsanfang, Voraussetzung und Schritt explizit aus.",
+      "points": 10
+    },
+    {
+      "type": "code",
+      "title": "Wahrheitstabelle und Normalformen",
+      "text": "Gegeben ist die folgende Wahrheitstabelle für $P(p, q)$. Geben Sie die vollständige disjunktive Normalform (KDNF) an.",
+      "points": 4,
+      "code": [
+        "p | q | P",
+        "---------",
+        "0 | 0 | 1",
+        "0 | 1 | 0",
+        "1 | 0 | 1",
+        "1 | 1 | 1"
+      ]
+    },
+    {
+      "type": "open",
+      "title": "Finanzmathematik",
+      "text": "Ein Kapital von $K_0 = 5.000$ € wird für 4 Jahre zu $p = 3,0\\%$ p.a. jährlich verzinst angelegt (Zinseszins). Berechnen Sie das Endkapital $K_4$.",
+      "points": 4
+    },
+    {
+      "type": "open",
+      "title": "Lineare Gleichungssysteme",
+      "text": "Lösen Sie das folgende lineare Gleichungssystem mittels Gauß-Elimination: \n1) $x + y + z = 6$ \n2) $2x - y + z = 5$ \n3) $x + 3y - z = 4$",
+      "points": 8
+    },
+    {
+      "type": "open",
+      "title": "Matrizenrechnung",
+      "text": "Bestimmen Sie die Inverse $A^{-1}$ der Matrix $A = \\begin{pmatrix} 2 & 1 \\\\ 5 & 3 \\end{pmatrix}$ und überprüfen Sie Ihr Ergebnis durch Multiplikation.",
+      "points": 10
+    },
+    {
+      "type": "open",
+      "title": "Kurvendiskussion",
+      "text": "Untersuchen Sie die Funktion $f(x) = x^3 - 3x + 1$. Bestimmen Sie die lokalen Extremstellen (Maximum/Minimum) und geben Sie die Koordinaten der Punkte an.",
+      "points": 8
+    },
+    {
+      "type": "open",
+      "title": "Integralrechnung",
+      "text": "Berechnen Sie die Stammfunktion des folgenden Integrals mittels Substitution: $\\int \\frac{3x^2}{1+x^3} dx$. Geben Sie $u$ und $du$ an.",
+      "points": 9
+    },
+    {
+      "type": "image",
+      "title": "Optimierung unter Nebenbedingungen",
+      "text": "Minimieren Sie die Zielfunktion $F(x, y) = x^2 + y^2$ unter der Nebenbedingung $x + 2y = 10$. Bestimmen Sie den optimalen Punkt $(x, y)$ mit dem Lagrange-Verfahren. Das Bild zeigt das geometrische Minimum im Schnittpunkt der Funktionen.",
+      "points": 10,
+      "imageUrl": "question-10.png"
+    }
+  ]
+}

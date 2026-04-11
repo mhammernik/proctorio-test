@@ -14,10 +14,11 @@ h2 {
 }
 .container {
     display: flex;
+    justify-content: center;
     align-items: center;
-   /* Aligns items vertically center */
-    margin: 10px 42%;
-    width: 50%;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
 }
 .container img {
     margin-right: 10px;
@@ -27,9 +28,17 @@ h2 {
     width: 50px;
     height: 50px;
 }
-.container img, .container h1 {
+.container img {
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.container h1 {
     text-align: center;
-    display: inline-block;
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 600px;
 }
 .timer {
     text-align: center;
@@ -97,6 +106,50 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: vertical;
+}
+
+.math-keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    padding: 12px;
+    border: 1px solid #d7dde4;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #fafbfd 0%, #f3f6fa 100%);
+}
+
+.math-key {
+    border: 1px solid #bcc7d4;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #1f2b3a;
+    font-size: 0.9rem;
+    width: 48px;
+    height: 34px;
+    padding: 0;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.math-key:hover {
+    background: #edf3fb;
+    border-color: #7ea9d8;
+}
+
+.math-key:active {
+    transform: translateY(1px);
+}
+
+@media (max-width: 700px) {
+    .math-key {
+        width: 44px;
+        height: 32px;
+        font-size: 0.84rem;
+    }
 }
 .note {
     background: #f2f2f2;
@@ -352,4 +405,29 @@ afterward-questions ul {
     color: #333;
     margin-bottom: 10px;
     line-height: 1.5;
+}
+
+.math-keyboard.is-hidden {
+    display: none;
+}
+
+.math-keyboard-toggle {
+    margin-top: 8px;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid #bcc7d4;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #1f2b3a;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.math-keyboard-toggle:hover {
+    background: #edf3fb;
+    border-color: #7ea9d8;
 }
